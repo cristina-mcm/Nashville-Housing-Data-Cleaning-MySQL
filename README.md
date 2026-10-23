@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project cleans and prepares Nashville housing data using MySQL to improve its accuracy, consistency, and usability.
+This project cleans and prepares Nashville housing data using MySQL to improve its accuracy, consistency, and usability for future analysis.
 
 ## Data Cleaning Steps
 
@@ -13,12 +13,19 @@ This project cleans and prepares Nashville housing data using MySQL to improve i
 - Identified and removed duplicate records using `ROW_NUMBER()` and a CTE.
 - Removed unnecessary columns.
 
+## Skills
+
+- Self-joins
+- String manipulation
+- `CASE` expressions
+- Window functions
+
 ## Repository Contents
 
-- nashville_housing_data — original Nashville housing dataset;
-- nashville_housing_cleaning — database setup;
-- nashville_housing_database — data-cleaning scripts.
+- [nashville_housing_data](nashville_housing_data) — original Nashville housing dataset;
+- [nashville_housing_cleaning](nashville_housing_cleaning)— database setup;
+- [nashville_housing_database](nashville_housing_database) — data-cleaning scripts.
 
 ## Acknowledgment
 
-Project inspired by Alex the Analyst’s SQL data-cleaning tutorial and adapted for MySQL.
+Project inspired by Alex the Analyst’s SQL data-cleaning tutorial and adapted from SQL Server to MySQL.
